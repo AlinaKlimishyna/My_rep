@@ -1,0 +1,45 @@
+АДМІН@DESKTOP-6P6BTCE MINGW64 ~/Desktop/EXAM/My_rep (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+АДМІН@DESKTOP-6P6BTCE MINGW64 ~/Desktop/EXAM/My_rep (main)
+$ git branch
+* main
+  new-branch
+
+АДМІН@DESKTOP-6P6BTCE MINGW64 ~/Desktop/EXAM/My_rep (main)
+$ git log
+commit 00d9a4b502208e71da76345b3ee24d5f3dbefe52 (HEAD -> main, origin/main, origin/HEAD)
+Author: AlinaKlimishyna <klimishyna.alina@gmail.com>
+Date:   Sat Feb 1 15:07:47 2025 +0200
+
+    Rename Control to control.html
+
+commit ddef23a19a6cffe3b5656278cfe0d4f7d9b4dd2a
+Author: AlinaKlimishyna <klimishyna.alina@gmail.com>
+Date:   Sat Feb 1 15:00:49 2025 +0200
+
+    Create Control
+
+commit 66850464053a057455de8c41989ae011507bb11e
+Merge: 3b7acc8 4c35a16
+Author: Alina Klimishyna <klimishyna.alina@gmail.com>
+Date:   Sat Feb 1 14:52:55 2025 +0200
+
+    Вирішення конфлікту злиття гілок
+
+commit 3b7acc8c37be2ba47cd3effcfa22f4c2079d9ab7
+Author: Alina Klimishyna <klimishyna.alina@gmail.com>
+Date:   Sat Feb 1 14:43:37 2025 +0200
+
+АДМІН@DESKTOP-6P6BTCE MINGW64 ~/Desktop/EXAM/My_rep (main)
+$ git log --merges
+commit 66850464053a057455de8c41989ae011507bb11e
+Merge: 3b7acc8 4c35a16
+Author: Alina Klimishyna <klimishyna.alina@gmail.com>
+Date:   Sat Feb 1 14:52:55 2025 +0200
+
+    Вирішення конфлікту злиття гілок
